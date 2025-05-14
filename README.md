@@ -23,3 +23,7 @@ These two losses were then combined using user-defined weights (commonly with a 
 The generated image was initialized as a clone of the content image and updated using backpropagation. I used the L-BFGS optimizer from PyTorch's optim module, which is well-suited for style transfer due to its performance on loss surfaces with many local minima.
 The optimization loop repeatedly updated the generated image to minimize the total loss. After a set number of iterations, the resulting image was converted back from a tensor to a displayable format using inverse transformations. Finally, I visualized the content, style, and generated images using matplotlib.pyplot.
 This project helped me understand important deep learning concepts such as convolutional neural networks, feature maps, transfer learning, and gradient-based optimization**
+
+output:
+
+![Image](https://github.com/user-attachments/assets/0c39365f-c9fb-4f31-96ca-2de3f2b44bfe)
